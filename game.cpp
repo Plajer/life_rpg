@@ -150,7 +150,7 @@ void startNewDay() {
             }
             typewriter("Okradlem bank! Suuuupeer...", 75);
             SetConsoleTextAttribute(hConsole, FOREGROUND_BLUE);
-            typewriter("(-15 " + to_string(rand) + " HP, " + to_string(money) + " Pieniadze)", 15);
+            typewriter("(-" + to_string(rand) + " HP, " + to_string(money) + " Pieniadze)", 15);
             SetConsoleTextAttribute(hConsole, FOREGROUND_RED);
             cout << endl;
             typewriter("Teraz moge isc spac...", 15);
